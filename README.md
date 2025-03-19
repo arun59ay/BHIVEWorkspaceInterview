@@ -38,7 +38,7 @@ Webpack (For bundling and development server)
 
 Netlify (For deployment)
 
-Project Structure
+Project Structure:
 
 |-- src
     |-- assets/            # Images and icons
