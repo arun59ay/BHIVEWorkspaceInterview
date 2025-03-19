@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+Co-Working Space Seat Booking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
 
-## Available Scripts
+This is a responsive and feature-rich co-working space seat booking application built using React and TypeScript. The application is designed based on the provided Figma design and utilizes state management for maintaining the application state. The center's data is treated as an API response, fetched from GitHub, and displayed accordingly.
 
-In the project directory, you can run:
+Live Demo
 
-### `npm start`
+The application is deployed and accessible at:https://wonderful-croissant-deedae.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Developed using React + TypeScript for robust and scalable code.
 
-### `npm test`
+Responsive design ensuring seamless experience across phones, tablets, and desktops.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+State management implemented using Redux-Saga for efficient data handling.
 
-### `npm run build`
+UI built with Tailwind CSS for a polished and modern look.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Fetches center data from GitHub API and displays it dynamically.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hosted on Netlify for fast and reliable access.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tech Stack
 
-### `npm run eject`
+React 19
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+TypeScript
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Redux-Saga (State Management)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tailwind CSS (Styling)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router (For navigation)
 
-## Learn More
+Webpack (For bundling and development server)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Netlify (For deployment)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Structure
 
-### Code Splitting
+|-- src
+    |-- assets/            # Images and icons
+    |-- components/        # Reusable UI components
+    |-- pages/             # Page components
+    |-- store/             # Redux store, actions, reducers, sagas
+    |-- services/          # API service files
+    |-- libs/              # TypeScript type definitions
+    |-- App.tsx            # Main application file
+    |-- index.tsx          # Entry point
+    |-- index.css          # Global styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Installation & Setup
 
-### Analyzing the Bundle Size
+To run the project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the Repository
 
-### Making a Progressive Web App
+git clone https://github.com/your-repo-url.git
+cd coworking-seat-booking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Install Dependencies
 
-### Advanced Configuration
+npm install  # or yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Start Development Server
 
-### Deployment
+npm start  # or yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The application will be available at http://localhost:3000.
 
-### `npm run build` fails to minify
+Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application is deployed on Netlify. To deploy updates:
+
+Build the project:
+
+npm run build
+
+Deploy using Netlify CLI:
+
+netlify deploy --prod
+
+
+

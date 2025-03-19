@@ -44,7 +44,6 @@ const ChooseUsJson = [
 ];
 
 const ChooseUs = () => {
-  // const [getOptionsData, setOptionsData] = useState(ChooseUsJson);
   return (
     <div className="xs:w-[320px] md:w-[786px] xl:w-full flex justify-start flex-col">
       <div className="xs:text-2xl xl:text-[36px] font-bold mb-8 ">Why Choose us?</div>

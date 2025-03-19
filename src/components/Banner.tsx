@@ -27,6 +27,4 @@ const Banner = () => {
 };
 
 export default Banner;
-// position: absolute;
-// right: 6%;
-// top: 23%;
+

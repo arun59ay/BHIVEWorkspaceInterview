@@ -11,7 +11,6 @@ function* fetchCentersSaga() {
     const response: Response = yield call(fetch, GITHUB_RAW_URL);
     const data: Center[] = yield response.json();
     
-    // Transform the image URLs to use the GitHub static assets URL
     const transformedData = data.map(center => ({
       ...center,
       images: center.images.map(image => `${GITHUB_STATIC_ASSETS}${image}`)
