@@ -82,5 +82,5 @@ Deploy using Netlify CLI:
 
 netlify deploy --prod
 
-
+Contributing
 
