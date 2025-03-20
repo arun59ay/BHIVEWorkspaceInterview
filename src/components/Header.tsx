@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="w-full flex justify-center bg-white header-box-shadow h-[90px]">
-      <div className="xs:w-[320px] xl:w-[1200px]">
+      <div className="xs:w-[320px] md:w-[720px] xl:w-[1200px]">
         <header className="w-full h-full  flex xs:justify-between xl:justify-between items-center ">
           <img
             className="w-[125px] h-[40px]"

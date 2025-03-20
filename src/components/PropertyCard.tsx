@@ -54,7 +54,7 @@ const PropertyCard = () => {
 
 
   return (
-    <div className="xs:mb-12 xl:mb-20">
+    <div className="xs:mb-12 md:mb-40 xl:mb-20">
       <div className="xs:text-2xl xl:text-[36px] font-bold mb-8">Our Space Overview</div>
       <div className="spaceContainer">
         {processedCenters.map((item: any) => (

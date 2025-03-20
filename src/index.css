@@ -299,4 +299,45 @@ body {
   .spaceContainer{
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .chooseContent{
+    padding: 1rem;
+  }
+
+  .spaceCard{
+    width: 330px;
+  }
+
+  .spaceLocatedImage{
+    width: 295px;
+  }
+
+  .storePhoneImage {
+    position: absolute;
+    top: -136px;
+    left: -6px;
+  }
+
+  .storeCardInfo{
+    width: 300px;
+    margin-top: 9rem;
+  }
+
+  .getOurApp{
+    text-align: end;
+    font-size: 16px !important;
+    margin-right: 45px;
+    position: absolute;
+    bottom: 45px;
+    right: 74px;
+    z-index: 99;
+  }
+
+  .bannerDescription{
+    position: absolute;
+    left: 8%;
+    top: 14rem;
+    width: 300px !important;
+  }
+
 }

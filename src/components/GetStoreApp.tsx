@@ -2,8 +2,8 @@ import React from "react";
 
 const GetStoreApp = () => {
   return (
-    <div>
-      <div className="xs:text-2xl xl:text-[36px] font-bold xl:mb-48 xl:ml-16 xs:mb-6">
+    <div className="relative">
+      <div className="xs:text-2xl xl:text-[36px] font-bold xl:mb-48 xl:ml-16 xs:mb-6 getOurApp">
         Download our app now
       </div>
       <div className="storeCard">

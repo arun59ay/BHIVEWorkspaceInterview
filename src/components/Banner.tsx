@@ -4,10 +4,10 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bannerImage xs:h-[600px] xl:h-[600px] w-full relative flex justify-between align-center">
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center relative">
         <div className="md:w-[400px] xl:w-[1200px] xs:flex xs:flex-col-reverse md:inline-block">
           <div className="flex xs:justify-center xl:justify-between xl:items-center xl:h-full">
-            <div className="xs:w-[350px] md:w-[500px] xl:w-[806px] xs:text-xl xl:text-[58px] xl:leading-normal font-bold xs:text-center xl:text-start">
+            <div className="bannerDescription xs:w-[350px] md:w-[500px] xl:w-[806px] xs:text-xl xl:text-[58px] xl:leading-normal font-bold xs:text-center xl:text-start">
               Host your meeting with world-class amenities. Starting at{" "}
               <span className="text-[#F2B304]">₹199/-!</span>
             </div>

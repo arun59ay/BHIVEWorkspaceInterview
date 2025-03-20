@@ -45,7 +45,7 @@ const ChooseUsJson = [
 
 const ChooseUs = () => {
   return (
-    <div className="xs:w-[320px] md:w-[786px] xl:w-full flex justify-start flex-col">
+    <div className="xs:w-[320px] md:w-[700px] xl:w-full flex justify-start flex-col">
       <div className="xs:text-2xl xl:text-[36px] font-bold mb-8 ">Why Choose us?</div>
       <div className="chooseContainer">
         {ChooseUsJson.map((item) => (

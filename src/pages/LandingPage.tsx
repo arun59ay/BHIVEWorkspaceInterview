@@ -13,7 +13,7 @@ const LandingPage = () => {
         <Header />
         <Banner />
         <div className="w-full flex justify-center">
-          <div className="xs:w-[320px] md:w-[786px] lg:w-[1024px] xl:w-[1200px] xs:mt-20 xl:mt-0">
+          <div className="xs:w-[320px] md:w-[700px]  xl:w-[1200px] xs:mt-20 md:mt-0 xl:mt-0">
             <div className="mb-32">
               <ChooseUs />
             </div>
