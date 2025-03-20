@@ -6,7 +6,7 @@ This is a responsive and feature-rich co-working space seat booking application 
 
 Live Demo
 
-The application is deployed and accessible at:https://wonderful-croissant-deedae.netlify.app/
+The application is deployed and accessible at:https://meek-fox-fd9aa7.netlify.app/
 
 Features
 
