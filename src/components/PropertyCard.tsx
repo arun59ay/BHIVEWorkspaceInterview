@@ -55,12 +55,12 @@ const PropertyCard = () => {
 
   return (
     <div className="xs:mb-12 md:mb-40 xl:mb-20">
-      <div className="xs:text-2xl xl:text-[36px] font-bold mb-8">Our Space Overview</div>
+      <div className="xs:text-2xl xl:text-[36px] font-bold mb-8 text-[#263238] flex justify-between items-center">Our Space Overview <span className="md:hidden xl:hidden"><img  alt='Arrow' src={require(`../assets/Arrow.svg`)} /></span></div>
       <div className="spaceContainer">
         {processedCenters.map((item: any) => (
           <div className="spaceCard">
             <div className="spaceLoction">
-              <div className="spaceAddress">{item?.name}</div>
+              <div className="spaceAddress text-[#263238]">{item?.name}</div>
               <a
                 className="spaceMapLocation"
                 href={`https://www.google.com/maps?q=${item?.latitude},${item?.longitude}`}

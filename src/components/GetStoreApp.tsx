@@ -3,8 +3,9 @@ import React from "react";
 const GetStoreApp = () => {
   return (
     <div className="relative">
-      <div className="xs:text-2xl xl:text-[36px] font-bold xl:mb-48 xl:ml-16 xs:mb-6 getOurApp">
+      <div className="text-[#605F5F] xs:text-2xl xl:text-[36px] font-bold xl:mb-48 xl:ml-12 xs:mb-6 getOurApp flex justify-between items-center">
         Download our app now
+        <span className="md:hidden xl:hidden"><img  alt='Arrow' src={require(`../assets/Arrow.svg`)} /></span>
       </div>
       <div className="storeCard">
         <div>
