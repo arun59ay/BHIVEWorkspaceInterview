@@ -106,9 +106,9 @@ const PropertyCard = () => {
               </div>
               <div className="bulkPassButton flex justify-between items-center relative p-3">
                 <div>
-                  <div className="xs:text-xs xl:text-sm text-[#65624C] xs:mt-2 xl:mt-0">Day Pass</div>
+                  <div className="xs:text-xs xl:text-sm text-[#65624C] xs:mt-2 xl:mt-0">Bulk Pass</div>
                   <div className="xs:text-[16px] xl:text-xl text-[#263238]">
-                    ₹ {item?.day_pass_discounts_percentage}<span className="xs:text-[11px] xl:text-xs text-[#263238CC]">/ 10 Day</span>
+                    ₹ {item?.day_pass_discounts_percentage}<span className="xs:text-[11px] xl:text-xs text-[#263238CC]">/ 10 Days</span>
                   </div>
                 </div>
                 <div>
